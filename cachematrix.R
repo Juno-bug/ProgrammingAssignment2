@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cashSolve calculates the inverse of the matrix returned by makeCasheMatrix 
+## casheSolve calculates the inverse of the matrix returned by makeCasheMatrix 
 ## function. If the inverse was already calculated, then it is retrieved from 
 ## cache, if it isn't the function calculates the inverse of the matrix with the
 ## solve function.
